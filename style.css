@@ -1,0 +1,51 @@
+.grid {
+  display: grid;
+  grid-template-columns: 23% 77%;
+}
+
+.sidebar {
+  background-color: #0ea5e9;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 75% 15%;
+  grid-template-rows: 20% 35% 45%;
+}
+
+.main {
+  background-color: white;
+  height: 100vh;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  align-self: center;
+}
+
+.logo h1 {
+  color: white;
+  font-size: 25px;
+  align-self: center;
+}
+
+.icon {
+  display: grid;
+  grid-template-columns: 20% 50%;
+}
+
+.icon p {
+  color: white;
+  font-weight: bold;
+}
+
+.list-items-one {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.list-items-two {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
