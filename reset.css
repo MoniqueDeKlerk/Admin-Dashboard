@@ -7,7 +7,20 @@
   font-family: 'Roboto', sans-serif;
 }
 
-svg {
+.icon svg {
   fill: white;
   margin-bottom: 10px;
+}
+
+.logo svg {
+  fill: white;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
 }
